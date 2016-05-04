@@ -137,6 +137,7 @@ public class Nivel3 implements Screen
         musicaFondo= Gdx.audio.newMusic(Gdx.files.internal("musicaFondo.mp3"));
         musicaFondo.setLooping(true);   ///Infinito
         musicaFondo.play();
+        Gdx.input.setCatchBackKey(true);
 
     }
 

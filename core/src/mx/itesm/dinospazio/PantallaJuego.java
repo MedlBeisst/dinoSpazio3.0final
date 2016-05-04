@@ -140,6 +140,8 @@ public class PantallaJuego implements Screen
         musicaFondo.setLooping(true);   ///Infinito
         musicaFondo.play();
 
+        Gdx.input.setCatchBackKey(true);
+
     }
 
     // LOS RECURSOS SE CARGAN AHORA EN PantallaCargando

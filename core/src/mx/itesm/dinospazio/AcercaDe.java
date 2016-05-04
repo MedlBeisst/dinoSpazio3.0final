@@ -59,20 +59,7 @@ public class AcercaDe implements Screen {
         Gdx.input.setInputProcessor(new ProcesadorEntrada());
 
 
-        /* SISTEMA de PARTICULAS
-        efecto = new ParticleEffect();
-        efecto.load(Gdx.files.internal("prueba.p"), Gdx.files.internal("./"));
-        efecto.setPosition(Plataforma.ANCHO_CAMARA / 2, Plataforma.ALTO_CAMARA / 2);
-        emisores = new Array<ParticleEmitter>(efecto.getEmitters());
-        efecto.getEmitters().clear();
-        efecto.getEmitters().add(emisores.get(0));
-
-        efecto1 = new ParticleEffect();
-        efecto1.load(Gdx.files.internal("prueba1.p"), Gdx.files.internal("./"));
-        efecto1.setPosition(Plataforma.ANCHO_CAMARA / 19, Plataforma.ALTO_CAMARA / 6);
-        emisores1 = new Array<ParticleEmitter>(efecto.getEmitters());
-        efecto1.getEmitters().clear();
-        efecto1.getEmitters().add(emisores1.get(0));*/
+        Gdx.input.setCatchBackKey(true);
     }
 
     // Carga los recursos a través del administrador de assets

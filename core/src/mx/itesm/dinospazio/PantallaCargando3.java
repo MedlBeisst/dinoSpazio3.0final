@@ -61,6 +61,7 @@ public class PantallaCargando3 implements Screen
                 Plataforma.ALTO_CAMARA / 2 - spriteCargando.getHeight() / 2);
 
         cargarRecursos();
+        Gdx.input.setCatchBackKey(true);
     }
 
     // Carga los recursos a través del administrador de assets (siguiente pantalla)

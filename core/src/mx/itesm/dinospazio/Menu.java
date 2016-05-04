@@ -74,6 +74,8 @@ public class Menu implements Screen
         crearObjetos();
         batch = new SpriteBatch();
 
+        Gdx.input.setCatchBackKey(false);
+
 
 
 

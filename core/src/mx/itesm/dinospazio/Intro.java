@@ -43,6 +43,7 @@ public class Intro implements Screen {
         createObjects();
 
         batch = new SpriteBatch();
+        Gdx.input.setCatchBackKey(true);
 
     }
 

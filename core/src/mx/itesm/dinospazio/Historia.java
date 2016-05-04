@@ -106,6 +106,8 @@ public class Historia implements Screen {
 
         batch = new SpriteBatch();
 
+        Gdx.input.setCatchBackKey(true);
+
     }
 
     public void LoadResources(){
